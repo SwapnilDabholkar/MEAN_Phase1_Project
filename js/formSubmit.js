@@ -25,7 +25,7 @@ function submitData(){
  
     thumbnail = "images/" + thumbnail;
 
-// alert(thumbnail);
+alert(thumbnail);
     const obj = new BlogData(fname,lname,title,description,thumbnail);
     
     //All_Data.push(obj);
